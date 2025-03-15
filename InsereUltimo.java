@@ -11,7 +11,6 @@ public class InsereUltimo {
             v[i] = Integer.parseInt(strV[i]);
         }
         insereUltimo(v);
-        
         System.out.println(Arrays.toString(v));
     }
 
