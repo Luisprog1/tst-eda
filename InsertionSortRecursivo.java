@@ -6,7 +6,6 @@ public class InsertionSortRecursivo {
         Scanner sc = new Scanner(System.in);
         String[] strV = sc.nextLine().split(" ");
         int[] v = new int[strV.length];
-
         for(int i = 0; i < strV.length; i++){
             v[i] = Integer.parseInt(strV[i]);
         }
