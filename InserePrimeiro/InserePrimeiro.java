@@ -1,4 +1,4 @@
-package f;
+package InserePrimeiro;
 
 import java.util.Arrays;
 import java.util.Scanner;
