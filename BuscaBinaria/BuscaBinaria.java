@@ -1,3 +1,5 @@
+package BuscaBinaria;
+
 import java.util.Scanner;
 
 class BuscaBinaria {

@@ -1,3 +1,5 @@
+package BuscaLinearRecursiva;
+
 import java.util.Scanner;
 
 public class BuscaLinearRecursiva {

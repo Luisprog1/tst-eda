@@ -1,3 +1,5 @@
+package ContingPassoPasso;
+
 import java.util.Scanner;
 
 public class CountingPassoPasso {

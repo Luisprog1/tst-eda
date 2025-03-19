@@ -1,3 +1,5 @@
+package InvertePilhaIndex;
+
 import java.util.Scanner;
 
 public class InvertePilhaIndex {
@@ -44,12 +46,12 @@ class Pilha {
     }
     public void push(String v) {
         if(isFull())
-            throw new RuntimeException("Pilha cheia");
+            throw new RuntimeException("c.Pilha cheia");
         this.stack[++top] = v;
     }
     public String pop() {
         if (isEmpty())
-            throw new RuntimeException("Pilha vazia");
+            throw new RuntimeException("c.Pilha vazia");
         return this.stack[top--];
     }
 }

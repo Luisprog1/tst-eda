@@ -1,3 +1,5 @@
+package EcontraPrimeiroNegativo;
+
 import java.util.Scanner;
 
 public class EPN {

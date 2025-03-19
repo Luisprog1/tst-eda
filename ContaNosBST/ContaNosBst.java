@@ -1,4 +1,4 @@
-package a;
+package ContaNosBST;
 
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package ContingPassoPasse;
+
 import java.util.Scanner;
 
 public class EncontraQuebraRecursivo {

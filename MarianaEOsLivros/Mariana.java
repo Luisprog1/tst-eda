@@ -1,3 +1,5 @@
+package MarianaEOsLivros;
+
 import java.util.Scanner;
 
 public class Mariana {

@@ -1,3 +1,5 @@
+package TeoremaMestre;
+
 import java.util.Scanner;
 
 public class TeoremaMestre {

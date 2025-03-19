@@ -1,3 +1,5 @@
+package OrdenaPilhaInvertido;
+
 import java.util.Scanner;
 import java.util.Stack;
 
