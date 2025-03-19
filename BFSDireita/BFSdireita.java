@@ -1,8 +1,10 @@
-import java.util.ArrayList;
+package BFSDireita;
+
+import java.util.Deque;
+import java.util.LinkedList;
 import java.util.Scanner;
 
-
-public class ContaNosBst {
+public class BFSdireita {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String[] strTree = sc.nextLine().split(" ");
@@ -10,7 +12,7 @@ public class ContaNosBst {
         BST bst = new BST();
         for(int i = 0; i < strTree.length; i++)
             bst.add(Integer.parseInt(strTree[i]));
-        System.out.println(bst.countInternalNodes());
+        System.out.println(bst.bfsDireita());
     }
 }
 
@@ -49,20 +51,19 @@ class BST{
         }
     }
 
-    public int countInternalNodes(){
-        return reCount(this.root);
-    }
-
-    public int reCount(Node node){
-        if(node == null || isLeaf(node)) return 0;
-        else if(!isLeaf(node)) return reCount(node.left) + reCount(node.right) + 1;
-        return 0;
-    }
-
-    public boolean isLeaf(Node current){
-        if(current.left == null && current.right == null)
-            return true;
-        return false;
+    public String bfsDireita() {
+        Deque<Node> queue = new LinkedList<Node>();
+        String out = "";
+        queue.addLast(this.root);
+        while(!queue.isEmpty()) {
+            Node aux = queue.removeFirst();
+            out += aux.value + " ";
+            if (aux.right != null)
+                queue.addLast(aux.right);
+            if (aux.left != null)
+                queue.addLast(aux.left);
+        }
+        return out.trim();
     }
 }
 
