@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/EncaminhamentoBST/EncaminhamentoBST.iml" filepath="$PROJECT_DIR$/EncaminhamentoBST/EncaminhamentoBST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MaxBST/MaxBST.iml" filepath="$PROJECT_DIR$/MaxBST/MaxBST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoveBST/RemoveBST.iml" filepath="$PROJECT_DIR$/RemoveBST/RemoveBST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SucessorBst/SucessorBst.iml" filepath="$PROJECT_DIR$/SucessorBst/SucessorBst.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tests/tests.iml" filepath="$PROJECT_DIR$/tests/tests.iml" />
       <module fileurl="file://$PROJECT_DIR$/tst-eda.iml" filepath="$PROJECT_DIR$/tst-eda.iml" />
     </modules>
   </component>
